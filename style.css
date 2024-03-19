@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow: break-word;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    color: #000;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+section.module p {
+    margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+section.module.content {
+    padding: 40px 0;
+    background:#ece7d5;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    
+}
+
+section.module.parallax-1{
+    background-image: url("https://resources.griffinproperty.co/blog/uploads/blog/thumbs/thumb_micheile-henderson-o-dp-s-n-m-h1-m-e-i-unsplash-60421966bd5e8.jpg");
+  }
+  
+  section.module.parallax-2 {
+    background-image: url("https://www.travelandleisure.com/thmb/A8NzuOVqbYaqZAMPgrg4nMLLtKk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-glasgow-TODOSCOTLAND0823-479acfff88e64e908673a1bd378479d5.jpg");
+
+
+  }
+
+  section.module.parallax-3 {
+    background-image: url("https://www.adventuresaroundscotland.com/uploads/2/4/2/9/24290443/edinburgh-citysightseeing-tour-bus_orig.jpg");
+
+  }
